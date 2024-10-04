@@ -20,7 +20,7 @@ def identi(nome, pront, insti):
     <h2><b>Aluno: {nome}</b></h2>
     <h2><b>Prontuário: PT{pront}</b></h2>
     <h2><b>Instituição: {insti}</b></h2>
-    <a href="{url_for('home')}">Home</a>
+    <a href="{url_for('home')}">Voltar</a>
     '''
 
 @app.route('/contextorequisicao')
@@ -35,7 +35,7 @@ def contexto():
     <h2><b>Seu navegador é: {navegador}</b></h2>
     <h2><b>O IP do computador remoto é: {ip}</b></h2>
     <h2><b>O host da aplicação é: {host}</b></h2>
-    <a href="{url_for('home')}">Home</a>
+    <a href="{url_for('home')}">Voltar</a>
     """
 
 if __name__ == '__main__':
